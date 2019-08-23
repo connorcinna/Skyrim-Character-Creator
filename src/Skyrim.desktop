@@ -1,0 +1,18 @@
+[Desktop Entry]
+Comment[en_US]=
+Comment=
+Exec=/home/connor/projects/skyrim/src/Skyrim.sh
+GenericName[en_US]=
+GenericName=
+Icon=/home/connor/projects/skyrim/resources/skyrim.ico
+MimeType=
+Name[en_US]=Skyrim Generator
+Name=Skyrim Generator
+Path=
+StartupNotify=true
+Terminal=true
+Type=Application
+X-DBUS-ServiceName=
+X-DBUS-StartupType=
+X-KDE-SubstituteUID=false
+X-KDE-Username=

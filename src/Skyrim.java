@@ -1,3 +1,4 @@
+
 import javafx.scene.layout.VBox;
 import javafx.scene.control.Button;
 import javafx.scene.control.TextArea;
@@ -24,11 +25,9 @@ public class Skyrim extends Application {
         TextArea text = new TextArea();
         generate.setOnAction(handle -> {
                 int result = (int) (Math.random()*(10000) + 1000);
-                System.out.println("result " + result);
                 int temp = 0;
                 String race = "", faction = "", playstyle = "", follower = "";
                 temp = result % 10;
-                System.out.println("temp " + temp);
                 switch (temp) {
                 case 0 : race = "Breton";
                     break;
@@ -53,7 +52,6 @@ public class Skyrim extends Application {
                 }
                 result /= 10;
                 temp = result % 10;
-                System.out.println("temp " + temp);
                 switch (temp) {
                 case 0: faction = "The Companions";
                     break;
@@ -78,7 +76,6 @@ public class Skyrim extends Application {
                 }
                 result /= 10;
                 temp = result % 10;
-                System.out.println("temp " + temp);
                 switch (temp) {
                 case 0: playstyle = "Wizard";
                     break;
@@ -103,7 +100,6 @@ public class Skyrim extends Application {
                 }
                 result /= 10;
                 temp = result % 10;
-                System.out.println("temp " + temp);
                 switch (temp) {
                 case 0: follower = "Same class as you";
                     break;
